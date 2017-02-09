@@ -1,0 +1,5 @@
+<% @students.each do |s| %>
+  <% if !s.first_name.blank? %>
+    <p><%= s.to_s %></p>
+  <% end %>
+<% end %>
