@@ -1,0 +1,7 @@
+<ol>
+<% if !Student.all.empty? %>
+  <%= Student.all.each do |student| %>
+    <li><%= link_to student.to_s, student_path(student.id) %></li>
+  <% end %>
+<% end %>
+</ol>
