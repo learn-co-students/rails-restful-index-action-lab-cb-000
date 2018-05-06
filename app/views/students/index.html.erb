@@ -1,0 +1,21 @@
+<h1>Students</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Student ID</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% Student.all.each do |student| %>
+      <tr>
+        <td><%= student.id %></td>
+        <td><%= student.first_name %></td>
+        <td><%= student.last_name %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
