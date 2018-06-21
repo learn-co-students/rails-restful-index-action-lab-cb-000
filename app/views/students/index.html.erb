@@ -1,4 +1,4 @@
-<%= content_tag(:h1, "List of students") %>
+<%= content_tag(:h1, "All Students") %>
 <%= div_for(@students, ) do |student| %>
-  <%= content_tag(:p, student.first_name) %>
+  <%= content_tag(:div, student.to_s) %>
 <% end %>
