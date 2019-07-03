@@ -1,0 +1,6 @@
+<h1>All Students</h1>
+
+    <% s=""; @students.each do |student| %>
+        <div> <% s = s+" "+student.to_s %> </div>
+    <% end %>
+    <%= s  %>
