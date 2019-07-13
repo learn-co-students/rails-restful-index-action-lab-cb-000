@@ -30,6 +30,9 @@ module Arlab
     # config.i18n.default_locale = :de
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
-    config.active_record.raise_in_transactional_callbacks = true
+    #NOTE: This line is commented out due to suggestions that it is not compatible
+    #With this version of Rails 
+    #config.active_record.raise_in_transactional_callbacks = true
+    Rails.application.config.active_record.sqlite3.represent_boolean_as_integer = true
   end
 end
