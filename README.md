@@ -2,14 +2,14 @@
 
 ## Objectives
 
-1. Draw a get route
-2. Map a route to a controller action
-3. Define a controller action
-4. Load instances from ActiveRecord into a controller instance variable
-5. Render a template
-6. Use an instance variable from a controller action in a template
-7. Iterate over an ActiveRecord collection in ERB
-8. Build a classical index action/view
+1.  Draw a get route
+2.  Map a route to a controller action
+3.  Define a controller action
+4.  Load instances from ActiveRecord into a controller instance variable
+5.  Render a template
+6.  Use an instance variable from a controller action in a template
+7.  Iterate over an ActiveRecord collection in ERB
+8.  Build a classical index action/view
 
 ## RESTful Routes
 
@@ -44,7 +44,5 @@ be found in `spec/features`. Both tests should be passing to complete the lab.
   again
 
 [Rails Routing from the Outside In](http://edgeguides.rubyonrails.org/routing.html)
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/rails-restful-index-action-lab'>RESTful Action Index Lab</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-restful-index-action-lab'>RESTful Action Index Lab</a> on Learn.co and start learning to code for free.</p>
